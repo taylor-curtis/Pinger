@@ -1,8 +1,3 @@
-#!/Users/taylor.curtis/.rvm/rubies/ruby-2.6.0/bin/ruby
-# add `alias pg="./pg2.rb"`
-# command: pg {number of pings} {IP/Site}
-# Example: pg 100 google.com
-# gem install colorize
 
 require 'colorize'
 
