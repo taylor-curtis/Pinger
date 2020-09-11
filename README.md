@@ -6,4 +6,3 @@ Example:
 
 
 ![GitHub Logo](/images/example.png)
-Format: ![Alt Text](url)
