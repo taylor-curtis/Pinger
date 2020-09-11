@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 run bundle install or `gem install colorize`
 
 Example:
