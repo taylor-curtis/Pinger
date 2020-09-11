@@ -28,6 +28,7 @@ print "\n"
 
 
 sleep 0.3
+#binding.pry
 if isOnline == true
         puts "Connectivity check sucessful!".colorize(:green)
         print "\n"
@@ -48,13 +49,13 @@ if isOnline == true
         exactTime = exactTimeArr[1].to_s.gsub("ms", "").to_i
 
         if exactTime <= 50
-          puts "#{dateTime.gsub("\n", "").colorize(:green)} #{ping.gsub("\n", "").colorize(:green)}"
+          puts "#{dateTime.gsub("\n", "").colorize(:green)} #{ping.gsub("\n", "").colorize(:green)} 🤗👍"
           sleep 1
         elsif exactTime > 60
-          puts "#{dateTime.gsub("\n", "").colorize(:red)} #{ping.gsub("\n", "").colorize(:red)}"
+          puts "#{dateTime.gsub("\n", "").colorize(:red)} #{ping.gsub("\n", "").colorize(:red)} 🤬"
           sleep 1
         else
-          puts "#{dateTime.gsub("\n", "").colorize(:yellow)} #{ping.gsub("\n", "").colorize(:yellow)}"
+          puts "#{dateTime.gsub("\n", "").colorize(:yellow)} #{ping.gsub("\n", "").colorize(:yellow)} 💩"
           sleep 1
         end
       else

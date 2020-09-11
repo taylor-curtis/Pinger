@@ -1,7 +1,6 @@
 # Pinger
 
-gem install colorize
+run bundle install or `gem install colorize`
 
-command: pg {number of pings} {IP/Site}
-
-Example: pg 100 google.com
+Example:
+> ruby pg2.rb 8.8.8.8    
